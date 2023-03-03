@@ -1,0 +1,486 @@
+@media (max-width: 950px) {
+    .company-card__contact-grid {
+        grid-template-columns: 1fr;
+        grid-row-gap: 10px;
+        max-width: 278px;
+    }
+
+    .void-data {
+        display: none;
+    }
+
+    body {
+        overflow: auto;
+        width: 100vw;
+    }
+
+    .gridded {
+        grid-template-columns: 1fr;
+        width: auto;
+    }
+
+    .container {
+        width: 320px;
+    }
+
+    .slider {
+        margin-left: 0;
+        margin-top: 39px;
+    }
+
+    .slider__wrapper {
+        display: block;
+        transform: translateX(0px);
+        margin: 0;
+        overflow: hidden;
+    }
+
+    .slider-item::after {
+        content: '';
+        display: block;
+        width: 100%;
+        height: 1px;
+        background-color: #BCBCBE;
+        margin-top: 12px;
+    }
+
+    .header__logo img {
+        width: 137px;
+        height: 27px;
+    }
+
+    .header__botom-menu-burger img {
+        width: 25px;
+    }
+
+    .header__botom-menu-burger {
+        margin-right: 17px;
+        margin-left: 0;
+    }
+
+    .header__bottom-menu-search {
+        height: 39px;
+        width: 271px;
+    }
+
+    #region {
+        font-size: 12px;
+    }
+
+    .company-card {
+        width: 320px;
+        grid-template-columns: 100px 1fr;
+        margin: 0;
+        padding-top: 15px;
+    }
+
+    .company-name {
+        max-width: 320px;
+    }
+
+    .map {
+        display: none;
+    }
+
+    .company-card__location_text,
+    .company-card__pinned-message,
+    .company-card__about {
+        grid-column: 1/-1;
+        max-width: 280px;
+    }
+
+    .company-card__info-data {
+        display: block;
+    }
+
+    .company-card__info {
+        flex-direction: column;
+        margin-right: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    #filial {
+        display: none;
+    }
+
+    .company-card__contact-site {
+        margin: 0;
+    }
+
+    .company-card__contact-reveal-phone {
+        margin: 0;
+        grid-row: 2/3;
+    }
+
+    .company-card__contact-reveal-email {
+        margin: 0;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 160%;
+        color: #0AA9B4;
+        margin-top: -9px;
+    }
+
+    .company-card__contact-reveal-email {
+        transform: translate(4px, 4px);
+
+    }
+
+    .company-card__contact-break-up {
+        margin: 0;
+        grid-row: 4/5;
+    }
+
+    .company-card__contact-work-time {
+        margin: 0;
+        margin-left: 5px;
+    }
+
+    .slider {
+        max-width: 320px;
+    }
+
+    .main-data {
+        max-width: 320px;
+    }
+
+    .header__bottom-menu-input input {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 140%;
+        /* identical to box height, or 17px */
+        flex-grow: 3;
+        color: #1F1F24;
+
+    }
+
+    #region {
+        background-position: right 0 top 50%;
+        margin: 10px;
+        width: 69px;
+        background-size: 7px auto;
+        
+    }
+
+    .header__bottom-menu-search-button {
+        display: none;
+    }
+
+    .company-name__header,
+    .company-name__subheader {
+        font-size: 26px;
+    }
+
+    .left {
+        transform: translateX(0);
+    }
+
+    .slider__arrow-right {
+        display: none;
+    }
+
+    .slider__arrow-left {
+        display: none;
+    }
+
+    .slider-item:nth-child(3) {
+        padding-left: 0px;
+    }
+
+
+    .active-slide-item::after {
+        background-color: #00315C;
+        font-family: 'Roboto';
+
+
+    }
+
+    .slider-item {
+        margin-bottom: 43px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 110%;
+
+    }
+
+    .company-name__description {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 160%;
+        color: #4C4C50;
+        margin-top: -8px;
+        margin-left: 2px;
+
+    }
+
+    .bigmap {
+        display: block;
+        width: 280px;
+        height: 105px;
+        background: url(../images/bigmap.png);
+        border: 2px solid #E9E9EA;
+        border-radius: 5px;
+        margin-top: 20px;
+        overflow: hidden;
+    }
+
+    .mobile-map {
+        display: block;
+    }
+
+    .header__bottom-menu {
+        margin-top: 9px;
+        margin-left: 7px;
+    }
+
+    .header__bottom-menu-input input {
+        padding-left: 6px;
+    }
+    .header__bottom-menu-input{
+        margin-left: -1px;
+    }
+
+    .header__bottom-menu-search {
+        border-radius: 5px;
+        border-width: 1px;
+    }
+
+    .header__botom-menu-burger {
+        margin-top: 6px;
+    }
+
+    .header__botom-menu-burger img {
+        height: 17px;
+        transform: scaleX(1.2);
+    }
+
+    .line {
+        margin-top: 15px;
+    }
+
+    .company-card__name {
+        font-size: 13px;
+    }
+
+    .company-card__logo {
+        width: 100px;
+        height: 70px;
+        margin-top: -3px;
+    }
+
+    .company-card__logo img {
+        width: 36px;
+    }
+
+    #filial:nth-child(2) {
+        display: block;
+        border: none;
+        appearance: none;
+        background-image: url("/images/arrow.svg");
+        background-repeat: no-repeat;
+        background-position: right 0.7rem top 50%;
+        background-size: 7px auto;
+        width: 87px;
+        margin-top: 18px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 160%;
+        color: #00315C;
+
+    }
+
+    .company-foundation {
+        transform: translateY(-20px);
+        font-size: 13px;
+    }
+
+    .company-foundation::before {
+        margin-right: 5px;
+    }
+
+    .company-card__location_text {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 160%;
+        margin-top: 14px;
+        margin-left: -2px;
+        color: #1F1F24;
+        display: grid;
+        grid-template-columns: 27px 1fr;
+    }
+
+    .company-card__location_text::before {
+        margin-top: 4px;
+        margin-left: 2px;
+        margin-right: 8px;
+    }
+
+    .company-card__pinned-message {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 13px;
+        line-height: 160%;
+        color: #4C4C50;
+        display: grid;
+        grid-template-columns: 26px 1fr;
+        margin-left: -2px;
+        margin-top: 5px;
+    }
+
+    .company-card__pinned-message::before {
+        margin-top: 4px;
+        margin-left: 2px;
+    }
+
+    .company-card__contact-phone {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 160%;
+        color: #1F1F24;
+        margin-top: -7px;
+
+
+    }
+
+    .company-card__contact-phone::before {
+        margin-top: 6px;
+        margin-left: 4px;
+    }
+
+    .company-card__contact-reveal-phone {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 160%;
+        color: #0AA9B4;
+        margin-top: -10px;
+        margin-left: 30px;
+    }
+
+    .key {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 160%;
+        color: #8E8E91;
+
+    }
+
+    .value {
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 160%;
+        color: #4C4C50;
+
+
+    }
+
+    .company-card__contact-break-up {
+        margin-top: -10px;
+        margin-left: 31px;
+    }
+
+    .company-card__contact-site {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 160%;
+        text-transform: lowercase;
+        color: #0AA9B4;
+        margin-top: -6px;
+        margin-left: 3px;
+    }
+
+    .company-card__contact-site::before {
+        margin-top: 5px;
+        transform: translateX(2px) translateY(2px);
+    }
+
+    .company-card__about {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 160%;
+        color: #1F1F24;
+
+    }
+
+    .active-slide-item {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 26px;
+        line-height: 110%;
+        margin-top: -7px;
+        color: #00315C;
+
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .header__language-section {
+        display: none;
+    }
+
+    #mobile-lang {
+        display: block;
+        border: none;
+        appearance: none;
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 140%;
+        /* identical to box height, or 17px */
+
+
+        color: #1F1F24;
+
+    }
+    .mobile-language-section{
+        display: flex;
+        transform: translateX(-3px);
+    }
+    .mobile-language-section::before {
+        content: "";
+        width: 7px;
+        height: 4px;
+        background: url(../images/arrow.svg);
+        background-size: 7px 4px;
+        display: inline-block;
+        margin-top: 5px;
+        margin-right: 5px;
+    }
+    .mobile-language-section__more {
+        margin-top: -5px;
+        transform: translateX(4px);
+        cursor: pointer;
+    }
+}

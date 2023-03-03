@@ -1,0 +1,108 @@
+@media (max-width: 1280px) {
+    body{
+        overflow-x: hidden;
+    }
+    .container{
+        width: 946px;
+    }
+    .gridded{
+        display: grid;
+        grid-template-columns: 1fr 200px;
+    }
+    .company-name__fav-button {
+        display: none;
+    }
+    .company-name__description{
+        font-size: 13.5px;
+    }
+    .company-card{
+        margin-top: 2px;
+    }
+    .slider-item:nth-child(1), .slider-item:nth-child(2){
+        color: #E9E9EA;
+    } 
+    .gridded{
+        width: 906px;
+    }
+    .company-card{
+        padding: 20px;
+    }
+    .company-card__logo{
+        width: 150px;
+        height: 105px;
+    }
+    .company-card{
+        grid-template-columns: 150px 1fr 150px;
+    }
+    .map img{
+        width: 150px;
+    }
+    .company-card__info{
+        margin-left: 17px;
+    }
+    #filial{
+        margin-top: 44px;
+    }
+    .company-foundation{
+        margin-top: -25px;
+    }
+    .company-card__contact-work-time{
+        margin-left: -7px;
+    }
+    .company-card__contact-reveal-phone{
+        margin-top: 2px;
+    }
+    .company-card__contact-break-up{
+        margin-left: 14px;
+    }
+    .company-card__contact-reveal-email{
+        margin-left: 21px;
+    }
+    .company-card__contact-site{
+        margin-left: 23px;
+        margin-top: -2px;
+    }
+    .slider{
+        overflow-x: hidden;
+        display: flex;
+        width: 694px;
+        margin-left: -20px;
+    }
+    .slider__wrapper{
+        display: grid;
+        grid-template-columns: 20px repeat(4,240px);
+        transform: translateX(-296px);
+        transition: 1s;
+    }
+    .main-data{
+        width: 694px;
+        padding: 0;
+    }
+    .void-data{
+        margin-left: 20px;
+    }
+    .slider__arrow-left{
+        display: inline;
+        margin-right: 10px;
+        margin-top: -13px;
+        z-index: 9999;
+        cursor: pointer;
+        background-color: white;
+    }
+    .slider-item:nth-child(3){
+        padding-left: 39px;
+    }
+    .left{
+        transform: translateX(0);
+    }
+    .slider__arrow-right{
+       display: block; 
+       cursor: pointer;
+       margin-top: 5px;
+    }
+    .d-none{
+        display: none;
+    }
+
+
+}

@@ -1,0 +1,26 @@
+@media (max-width: 1450px) {
+    .container{
+        width: 1200px;
+        flex-grow: 3;
+    }
+    .gridded{
+        display: grid;
+        grid-template-columns: 1fr 200px;
+    }
+    .company-name__fav-button {
+        display: none;
+    }
+    .company-name__description{
+        font-size: 13.5px;
+    }
+    .company-card{
+        margin-top: 2px;
+    }
+    .slider-item:nth-child(2), .slider-item:nth-child(3){
+        color: #E9E9EA;
+    } 
+    body{
+        overflow-x: hidden;
+    }
+    
+}
